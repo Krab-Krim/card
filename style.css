@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-     background-image: url("https://i.pinimg.com/originals/30/98/dc/3098dcc0bc24633876216b8e0632560a.jpg");
+    margin: 40px 0 0;
+    background-image: url("https://i.pinimg.com/originals/30/98/dc/3098dcc0bc24633876216b8e0632560a.jpg");
 }
 html {
     font-family: 'Caveat', cursive;
@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 50px;
     height: 50px;
     margin-top: -20px;
+    transition: .3s linear;
 }
 /*Media styles*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
